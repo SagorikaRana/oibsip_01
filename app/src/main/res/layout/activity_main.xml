@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#102C57"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unit"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#DAC0A3"
+        android:layout_marginTop="200dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/converter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unit"
+        android:layout_centerInParent="true"
+        android:text="Converter"
+        android:textSize="50sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#DAC0A3"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/convertBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/converter"
+        android:text="Convert"
+        android:textSize="30sp"
+        android:backgroundTint="#EADBC8"
+        android:fontFamily="serif"
+        android:textColor="#102C57"
+        android:padding="15dp"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
+
+</RelativeLayout>
