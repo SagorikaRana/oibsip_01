@@ -26,10 +26,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/unit"
         android:layout_centerInParent="true"
-        android:text="Converter"
-        android:textSize="50sp"
         android:fontFamily="sans-serif-black"
+        android:text="Converter"
         android:textColor="#DAC0A3"
+        android:textSize="50sp"
         tools:ignore="HardcodedText" />
 
     <Button
@@ -46,6 +46,16 @@
         android:textColor="#102C57"
         android:padding="15dp"
         tools:ignore="HardcodedText,UnusedAttribute" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="20dp"
+        android:text="Developed by Sagorika Rana"
+        android:textColor="#EADBC8"/>
 
 
 </RelativeLayout>
